@@ -1,0 +1,1034 @@
+{
+ "Gal.5.22": {
+  "ph": "the fruit of the Spirit",
+  "n": [
+   [
+    "Set against the works of the flesh (vv.19–21), inside Paul's argument that those led by the Spirit are not under the law.",
+    [
+     "Gal.5.19",
+     "Gal.5.18"
+    ],
+    "i"
+   ],
+   [
+    "Love heads the list; earlier in the chapter Paul says the whole law is fulfilled in love of neighbour.",
+    [
+     "Gal.5.14"
+    ],
+    "s"
+   ]
+  ],
+  "r": [
+   [
+    "Lev.19.18",
+    "god",
+    "The command Paul quotes in 5:14: love thy neighbour as thyself.",
+    "q"
+   ],
+   [
+    "Ps.1.3",
+    "ot",
+    "The righteous as a tree bringing forth fruit in his season.",
+    "i"
+   ],
+   [
+    "Isa.11.2",
+    "prophecy",
+    "The Spirit resting on the coming Branch, described by its qualities.",
+    "i"
+   ],
+   [
+    "Jer.31.33",
+    "god",
+    "The law written in the heart, not on stone.",
+    "i"
+   ],
+   [
+    "Ezek.36.27",
+    "god",
+    "God puts his spirit within his people and causes them to walk in his ways.",
+    "e"
+   ],
+   [
+    "Joel.2.28",
+    "prophecy",
+    "The promise that the Spirit would be poured out on all flesh.",
+    "i"
+   ],
+   [
+    "Matt.7.17",
+    "jesus",
+    "A good tree brings forth good fruit: character shown by what grows.",
+    "i"
+   ],
+   [
+    "John.15.5",
+    "jesus",
+    "Fruit comes from abiding in him.",
+    "i"
+   ],
+   [
+    "John.14.17",
+    "jesus",
+    "The Spirit of truth would dwell in them.",
+    "i"
+   ],
+   [
+    "Acts.2.17",
+    "apostle",
+    "Peter declares Joel's promise fulfilled at Pentecost.",
+    "i"
+   ]
+  ],
+  "l": [
+   [
+    "1Cor.13.4",
+    "apostle",
+    "Paul's portrait of love uses two of the same qualities: suffereth long, is kind.",
+    "w"
+   ]
+  ],
+  "w": [
+   "G2590",
+   "G2041",
+   "G26",
+   "G5479",
+   "G1515",
+   "G3115",
+   "G5544",
+   "G19",
+   "G4102"
+  ]
+ },
+ "Gal.5.23": {
+  "ph": "against such there is no law",
+  "n": [
+   [
+    "The list closes with a direct answer to the dispute over the law in Galatia.",
+    [
+     "Gal.5.18",
+     "Gal.5.2"
+    ],
+    "i"
+   ]
+  ],
+  "r": [
+   [
+    "Num.12.3",
+    "ot",
+    "Moses, the lawgiver, is called very meek.",
+    "w"
+   ],
+   [
+    "Jer.31.33",
+    "god",
+    "When the law is in the heart, there is nothing for it to stand against.",
+    "i"
+   ],
+   [
+    "Matt.5.5",
+    "jesus",
+    "Blessed are the meek.",
+    "w"
+   ],
+   [
+    "Matt.11.29",
+    "jesus",
+    "Jesus calls himself meek and lowly in heart.",
+    "w"
+   ]
+  ],
+  "l": [
+   [
+    "Acts.24.25",
+    "apostle",
+    "Paul reasons with Felix about temperance.",
+    "w"
+   ]
+  ],
+  "w": [
+   "G4236",
+   "G1466"
+  ]
+ },
+ "Gal.5.16": {
+  "ph": "Walk in the Spirit",
+  "n": [
+   [
+    "Walking is the Old Testament picture of a way of life.",
+    [
+     "Ps.1.1",
+     "Ezek.36.27"
+    ],
+    "i"
+   ]
+  ],
+  "r": [
+   [
+    "Ps.1.1",
+    "ot",
+    "Blessed is the man that walketh not in the counsel of the ungodly.",
+    "i"
+   ],
+   [
+    "Ezek.36.27",
+    "god",
+    "God's spirit within causes his people to walk in his statutes.",
+    "e"
+   ]
+  ],
+  "l": [],
+  "w": [
+   "G4151",
+   "G4561"
+  ]
+ },
+ "John.1.1": {
+  "ph": "In the beginning was the Word",
+  "n": [
+   [
+    "John opens with the first words of Genesis.",
+    [
+     "Gen.1.1"
+    ],
+    "s"
+   ]
+  ],
+  "r": [
+   [
+    "Gen.1.1",
+    "ot",
+    "The same opening: In the beginning.",
+    "e"
+   ],
+   [
+    "Gen.1.3",
+    "god",
+    "God speaks and it is so: creation by word.",
+    "i"
+   ],
+   [
+    "Ps.33.6",
+    "ot",
+    "By the word of the LORD were the heavens made.",
+    "e"
+   ]
+  ],
+  "l": [
+   [
+    "1John.1.1",
+    "disciple",
+    "The same writer's Word of life, heard, seen and handled.",
+    "e"
+   ],
+   [
+    "Col.1.16",
+    "apostle",
+    "By him were all things created.",
+    "i"
+   ],
+   [
+    "Heb.11.3",
+    "nt",
+    "The worlds were framed by the word of God.",
+    "i"
+   ]
+  ],
+  "w": [
+   "G746",
+   "G3056",
+   "H7225"
+  ]
+ },
+ "John.1.3": {
+  "ph": "All things were made by him",
+  "n": [],
+  "r": [
+   [
+    "Gen.1.1",
+    "ot",
+    "God created the heaven and the earth.",
+    "i"
+   ],
+   [
+    "Ps.33.6",
+    "ot",
+    "By the word of the LORD were the heavens made.",
+    "e"
+   ]
+  ],
+  "l": [
+   [
+    "Col.1.16",
+    "apostle",
+    "All things were created by him, and for him.",
+    "e"
+   ]
+  ],
+  "w": [
+   "H1254"
+  ]
+ },
+ "John.1.5": {
+  "ph": "the light shineth in darkness",
+  "n": [],
+  "r": [
+   [
+    "Gen.1.2",
+    "ot",
+    "Darkness was upon the face of the deep.",
+    "i"
+   ],
+   [
+    "Gen.1.3",
+    "god",
+    "Let there be light.",
+    "i"
+   ],
+   [
+    "Isa.9.2",
+    "prophecy",
+    "The people that walked in darkness have seen a great light.",
+    "i"
+   ]
+  ],
+  "l": [],
+  "w": []
+ },
+ "John.1.14": {
+  "ph": "the Word was made flesh, and dwelt among us",
+  "n": [],
+  "r": [
+   [
+    "Exod.25.8",
+    "god",
+    "Make me a sanctuary, that I may dwell among them.",
+    "e"
+   ],
+   [
+    "Exod.40.34",
+    "ot",
+    "The glory of the LORD filled the tabernacle.",
+    "e"
+   ]
+  ],
+  "l": [],
+  "w": [
+   "G4561",
+   "G4637"
+  ]
+ },
+ "John.15.1": {
+  "ph": "I am the true vine",
+  "n": [
+   [
+    "Israel had been pictured as God's vine; here Jesus calls himself the true one.",
+    [
+     "Ps.80.8",
+     "Isa.5.7"
+    ],
+    "i"
+   ]
+  ],
+  "r": [
+   [
+    "Ps.80.8",
+    "prayer",
+    "A prayer: thou hast brought a vine out of Egypt.",
+    "i"
+   ],
+   [
+    "Isa.5.7",
+    "prophecy",
+    "The vineyard of the LORD is the house of Israel; he looked for judgment but found oppression.",
+    "i"
+   ]
+  ],
+  "l": [],
+  "w": [
+   "G228"
+  ]
+ },
+ "John.15.2": {
+  "ph": "he purgeth it",
+  "n": [],
+  "r": [
+   [
+    "Isa.5.7",
+    "prophecy",
+    "God looking for fruit in his vineyard.",
+    "i"
+   ],
+   [
+    "Matt.3.10",
+    "nt",
+    "John the Baptist: every tree which bringeth not forth good fruit is hewn down.",
+    "i"
+   ]
+  ],
+  "l": [],
+  "w": [
+   "G2508",
+   "G2590"
+  ]
+ },
+ "John.15.4": {
+  "ph": "Abide in me, and I in you",
+  "n": [],
+  "r": [
+   [
+    "Jer.17.8",
+    "ot",
+    "A tree planted by the waters does not cease from yielding fruit.",
+    "i"
+   ]
+  ],
+  "l": [],
+  "w": [
+   "G3306"
+  ]
+ },
+ "John.15.5": {
+  "ph": "I am the vine, ye are the branches",
+  "n": [],
+  "r": [
+   [
+    "Ps.1.3",
+    "ot",
+    "A tree planted by the rivers of water brings forth fruit.",
+    "i"
+   ],
+   [
+    "Jer.17.8",
+    "ot",
+    "Roots by the river; leaves stay green in drought.",
+    "i"
+   ]
+  ],
+  "l": [
+   [
+    "Gal.5.22",
+    "apostle",
+    "Paul names the fruit: love, joy, peace…",
+    "w"
+   ]
+  ],
+  "w": [
+   "G3306",
+   "G2590"
+  ]
+ },
+ "Matt.5.3": {
+  "ph": "Blessed are the poor in spirit",
+  "n": [],
+  "r": [
+   [
+    "Ps.1.1",
+    "ot",
+    "The Psalms' first word over a way of life: Blessed.",
+    "w"
+   ],
+   [
+    "Isa.61.1",
+    "prophecy",
+    "Good tidings to the meek, binding up the brokenhearted.",
+    "e"
+   ]
+  ],
+  "l": [
+   [
+    "Luke.4.18",
+    "jesus",
+    "Jesus reads Isaiah 61 aloud in Nazareth.",
+    "i"
+   ]
+  ],
+  "w": [
+   "G3107",
+   "H835"
+  ]
+ },
+ "Matt.5.4": {
+  "ph": "they shall be comforted",
+  "n": [],
+  "r": [
+   [
+    "Isa.61.2",
+    "prophecy",
+    "To comfort all that mourn.",
+    "e"
+   ]
+  ],
+  "l": [],
+  "w": [
+   "G3107"
+  ]
+ },
+ "Matt.5.5": {
+  "ph": "the meek: for they shall inherit the earth",
+  "n": [
+   [
+    "Jesus repeats a line of the Psalms almost word for word.",
+    [
+     "Ps.37.11"
+    ],
+    "s"
+   ]
+  ],
+  "r": [
+   [
+    "Ps.37.11",
+    "ot",
+    "But the meek shall inherit the earth.",
+    "q"
+   ],
+   [
+    "Num.12.3",
+    "ot",
+    "Moses, very meek.",
+    "w"
+   ]
+  ],
+  "l": [
+   [
+    "Matt.11.29",
+    "jesus",
+    "I am meek and lowly in heart.",
+    "w"
+   ],
+   [
+    "Gal.5.23",
+    "apostle",
+    "Meekness listed as fruit of the Spirit.",
+    "w"
+   ]
+  ],
+  "w": [
+   "G4236"
+  ]
+ },
+ "Matt.5.8": {
+  "ph": "the pure in heart",
+  "n": [],
+  "r": [
+   [
+    "Ps.24.4",
+    "ot",
+    "Who may ascend the hill of the LORD: he that hath clean hands, and a pure heart.",
+    "e"
+   ],
+   [
+    "Ps.51.10",
+    "prayer",
+    "David prays: Create in me a clean heart.",
+    "e"
+   ]
+  ],
+  "l": [],
+  "w": [
+   "G2513",
+   "H3820"
+  ]
+ },
+ "Matt.7.16": {
+  "ph": "Ye shall know them by their fruits",
+  "n": [
+   [
+    "Spoken as a test for false prophets.",
+    [
+     "Matt.7.15"
+    ],
+    "s"
+   ]
+  ],
+  "r": [
+   [
+    "Ps.1.3",
+    "ot",
+    "The righteous bring forth fruit in season.",
+    "i"
+   ],
+   [
+    "Jer.17.8",
+    "ot",
+    "A tree that never ceases from yielding fruit.",
+    "i"
+   ]
+  ],
+  "l": [
+   [
+    "Gal.5.22",
+    "apostle",
+    "The fruit of the Spirit.",
+    "w"
+   ]
+  ],
+  "w": [
+   "G2590"
+  ]
+ },
+ "Matt.7.17": {
+  "ph": "every good tree bringeth forth good fruit",
+  "n": [],
+  "r": [
+   [
+    "Ps.1.3",
+    "ot",
+    "Like a tree planted by the rivers of water.",
+    "i"
+   ]
+  ],
+  "l": [
+   [
+    "Gal.5.22",
+    "apostle",
+    "The fruit of the Spirit.",
+    "w"
+   ]
+  ],
+  "w": [
+   "G19",
+   "G2590"
+  ]
+ },
+ "Matt.7.19": {
+  "ph": "hewn down, and cast into the fire",
+  "n": [
+   [
+    "John the Baptist had used the same words earlier.",
+    [
+     "Matt.3.10"
+    ],
+    "s"
+   ]
+  ],
+  "r": [
+   [
+    "Matt.3.10",
+    "nt",
+    "The axe is laid unto the root of the trees.",
+    "e"
+   ]
+  ],
+  "l": [],
+  "w": []
+ },
+ "Acts.2.16": {
+  "ph": "spoken by the prophet Joel",
+  "n": [
+   [
+    "Peter answers the mockers by pointing them to scripture.",
+    [
+     "Acts.2.13"
+    ],
+    "i"
+   ]
+  ],
+  "r": [
+   [
+    "Joel.2.28",
+    "prophecy",
+    "The passage Peter is about to quote.",
+    "q"
+   ]
+  ],
+  "l": [],
+  "w": []
+ },
+ "Acts.2.17": {
+  "ph": "I will pour out of my Spirit upon all flesh",
+  "n": [
+   [
+    "Where Joel says afterward, Peter says in the last days.",
+    [
+     "Joel.2.28"
+    ],
+    "s"
+   ]
+  ],
+  "r": [
+   [
+    "Joel.2.28",
+    "prophecy",
+    "The original promise.",
+    "q"
+   ],
+   [
+    "Ezek.36.27",
+    "god",
+    "I will put my spirit within you.",
+    "i"
+   ]
+  ],
+  "l": [],
+  "w": [
+   "G1632",
+   "G4151"
+  ]
+ },
+ "Gen.1.1": {
+  "ph": "In the beginning",
+  "n": [],
+  "r": [],
+  "l": [
+   [
+    "John.1.1",
+    "disciple",
+    "John begins his Gospel with the same words.",
+    "e"
+   ],
+   [
+    "Heb.11.3",
+    "nt",
+    "The worlds were framed by the word of God.",
+    "i"
+   ],
+   [
+    "Col.1.16",
+    "apostle",
+    "By him were all things created.",
+    "i"
+   ]
+  ],
+  "w": [
+   "H7225",
+   "H1254"
+  ]
+ },
+ "Gen.1.2": {
+  "ph": "the Spirit of God moved upon the face of the waters",
+  "n": [],
+  "r": [],
+  "l": [
+   [
+    "John.3.8",
+    "jesus",
+    "Jesus plays on wind and Spirit, one word in Greek.",
+    "w"
+   ],
+   [
+    "John.1.5",
+    "disciple",
+    "Light shining in darkness.",
+    "i"
+   ]
+  ],
+  "w": [
+   "H7307"
+  ]
+ },
+ "Gen.1.3": {
+  "ph": "Let there be light",
+  "n": [],
+  "r": [],
+  "l": [
+   [
+    "Isa.9.2",
+    "prophecy",
+    "The people that walked in darkness have seen a great light.",
+    "i"
+   ],
+   [
+    "John.1.5",
+    "disciple",
+    "The light shineth in darkness.",
+    "i"
+   ]
+  ],
+  "w": []
+ },
+ "Ps.1.1": {
+  "ph": "Blessed is the man",
+  "n": [],
+  "r": [],
+  "l": [
+   [
+    "Matt.5.3",
+    "jesus",
+    "The Beatitudes open the same way.",
+    "w"
+   ],
+   [
+    "Gal.5.16",
+    "apostle",
+    "Walk in the Spirit.",
+    "i"
+   ]
+  ],
+  "w": [
+   "H835",
+   "G3107"
+  ]
+ },
+ "Ps.1.3": {
+  "ph": "bringeth forth his fruit in his season",
+  "n": [],
+  "r": [],
+  "l": [
+   [
+    "Jer.17.8",
+    "ot",
+    "Jeremiah takes up the same tree by the water.",
+    "e"
+   ],
+   [
+    "Matt.7.17",
+    "jesus",
+    "Good tree, good fruit.",
+    "i"
+   ],
+   [
+    "John.15.5",
+    "jesus",
+    "The vine and branches.",
+    "i"
+   ],
+   [
+    "Gal.5.22",
+    "apostle",
+    "The fruit of the Spirit.",
+    "i"
+   ]
+  ],
+  "w": [
+   "G2590",
+   "H8451"
+  ]
+ },
+ "Ps.51.10": {
+  "ph": "Create in me a clean heart",
+  "n": [
+   [
+    "David prays after Nathan's rebuke.",
+    [
+     "Ps.51.title",
+     "2Sam.12.7"
+    ],
+    "s"
+   ]
+  ],
+  "r": [
+   [
+    "Gen.1.1",
+    "ot",
+    "God created: the same Hebrew verb.",
+    "w"
+   ]
+  ],
+  "l": [
+   [
+    "Ezek.36.26",
+    "god",
+    "God promises a new heart and a new spirit.",
+    "e"
+   ],
+   [
+    "Matt.5.8",
+    "jesus",
+    "Blessed are the pure in heart.",
+    "e"
+   ]
+  ],
+  "w": [
+   "H1254",
+   "H3820"
+  ]
+ },
+ "Ps.51.12": {
+  "ph": "the joy of thy salvation",
+  "n": [],
+  "r": [],
+  "l": [
+   [
+    "Gal.5.22",
+    "apostle",
+    "Joy as fruit of the Spirit.",
+    "w"
+   ]
+  ],
+  "w": [
+   "G5479"
+  ]
+ },
+ "Isa.11.1": {
+  "ph": "a Branch shall grow out of his roots",
+  "n": [],
+  "r": [],
+  "l": [
+   [
+    "Matt.2.23",
+    "nt",
+    "He shall be called a Nazarene (see word study).",
+    "w"
+   ]
+  ],
+  "w": [
+   "H5342"
+  ]
+ },
+ "Isa.11.2": {
+  "ph": "the spirit of the LORD shall rest upon him",
+  "n": [],
+  "r": [],
+  "l": [
+   [
+    "Isa.42.1",
+    "prophecy",
+    "I have put my spirit upon him.",
+    "e"
+   ],
+   [
+    "Luke.4.18",
+    "jesus",
+    "The Spirit of the Lord is upon me.",
+    "e"
+   ],
+   [
+    "Gal.5.22",
+    "apostle",
+    "The fruit of the Spirit.",
+    "i"
+   ]
+  ],
+  "w": [
+   "H7307"
+  ]
+ },
+ "Isa.53.5": {
+  "ph": "with his stripes we are healed",
+  "n": [],
+  "r": [],
+  "l": [
+   [
+    "1Pet.2.24",
+    "apostle",
+    "Peter: by whose stripes ye were healed.",
+    "q"
+   ]
+  ],
+  "w": [
+   "H2250"
+  ]
+ },
+ "Jer.31.33": {
+  "ph": "write it in their hearts",
+  "n": [
+   [
+    "Part of the promised new covenant.",
+    [
+     "Jer.31.31"
+    ],
+    "s"
+   ]
+  ],
+  "r": [],
+  "l": [
+   [
+    "Heb.8.10",
+    "nt",
+    "Hebrews quotes the promise.",
+    "q"
+   ],
+   [
+    "Gal.5.23",
+    "apostle",
+    "Against such there is no law.",
+    "i"
+   ]
+  ],
+  "w": [
+   "H8451",
+   "H3820"
+  ]
+ },
+ "Ezek.36.26": {
+  "ph": "A new heart also will I give you",
+  "n": [
+   [
+    "God had made the same promise earlier in Ezekiel.",
+    [
+     "Ezek.11.19"
+    ],
+    "s"
+   ]
+  ],
+  "r": [
+   [
+    "Ps.51.10",
+    "prayer",
+    "David had prayed for exactly this.",
+    "e"
+   ],
+   [
+    "Ezek.11.19",
+    "god",
+    "One heart, a new spirit, a heart of flesh.",
+    "e"
+   ]
+  ],
+  "l": [
+   [
+    "John.3.5",
+    "jesus",
+    "Born of water and of the Spirit.",
+    "i"
+   ]
+  ],
+  "w": [
+   "H3820",
+   "H7307"
+  ]
+ },
+ "Ezek.36.27": {
+  "ph": "I will put my spirit within you",
+  "n": [],
+  "r": [
+   [
+    "Ps.51.11",
+    "prayer",
+    "Take not thy holy spirit from me.",
+    "w"
+   ]
+  ],
+  "l": [
+   [
+    "John.14.17",
+    "jesus",
+    "He dwelleth with you, and shall be in you.",
+    "e"
+   ],
+   [
+    "Gal.5.16",
+    "apostle",
+    "Walk in the Spirit.",
+    "e"
+   ],
+   [
+    "Gal.5.22",
+    "apostle",
+    "The fruit of the Spirit.",
+    "i"
+   ]
+  ],
+  "w": [
+   "H7307"
+  ]
+ },
+ "Joel.2.28": {
+  "ph": "I will pour out my spirit upon all flesh",
+  "n": [],
+  "r": [],
+  "l": [
+   [
+    "Acts.2.17",
+    "apostle",
+    "Peter quotes this at Pentecost.",
+    "q"
+   ]
+  ],
+  "w": [
+   "G1632",
+   "H7307"
+  ]
+ }
+}
