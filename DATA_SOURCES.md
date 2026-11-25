@@ -15,7 +15,7 @@
 - **Disciple speaking:** narration in John's Gospel (John 21:20, 24).
 - **Prophecy:** a book of prophecy (Isaiah–Malachi, Revelation), or a New Testament fulfilment formula.
 - **Prayer:** the verse addresses God directly ("O LORD", "Our Father which art…").
-- **OT / NT reference:** the verse quotes or closely echoes the other Testament, or readers strongly link them (40+ votes).
+- **OT / NT reference:** the verse quotes or closely echoes the other Testament, or shares a rarer key word with a verse readers strongly link to it (40+ votes).
 - **Link strength:** compares content words of the two verses (stop-words removed). *Quotation*: a long shared word sequence; *close echo*: a moderate one; *shared word*: a rarer word in common; *reader-linked*: no shared wording. *Shared image* is only used in curated links.
 
 These are heuristics. Each tag and strength is labelled as generated and shows its rule in the app.

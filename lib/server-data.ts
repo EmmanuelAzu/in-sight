@@ -50,7 +50,7 @@ function index() {
     });
   return idxP;
 }
-/** Words match whole words or as prefixes of 4+ letters (love → loved, loveth). */
+/** Whole words score fully; short endings (love → loved, loveth) score a little less. */
 export async function searchVerses(q: string, limit = 20) {
   const { ids, toks, idf } = await index();
   const k = await kjv();
@@ -62,8 +62,9 @@ export async function searchVerses(q: string, limit = 20) {
     const t = toks[i];
     let s = 0, hit = 0;
     for (const w of qt) {
-      const m = t.find((x) => x === w || (w.length >= 4 && x.startsWith(w)));
-      if (m) { s += idf.get(m) || 1; hit++; }
+      if (t.includes(w)) { s += idf.get(w) || 1; hit++; continue; }
+      const m = w.length >= 4 ? t.find((x) => x.startsWith(w) && x.length - w.length <= 3) : undefined;
+      if (m) { s += (idf.get(m) || 1) * 0.6; hit++; }
     }
     if (!hit) continue;
     s *= hit / qt.length;

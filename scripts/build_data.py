@@ -263,9 +263,9 @@ def main():
         if m: tag(vid, "prayer", f"Addresses God directly: “{m.group(1)}”.")
         for tgt, votes, s in XR.get(vid, []):
             tb = tgt.split(".")[0]
-            if TEST[tb] != test and (s in "qe" or votes >= 40):
+            if TEST[tb] != test and (s in "qe" or (s == "w" and votes >= 40)):
                 k = "ot" if test == "NT" else "nt"
-                kind = {"q": "quotes", "e": "closely echoes"}.get(s, "is strongly linked by readers to")
+                kind = {"q": "quotes", "e": "closely echoes"}.get(s, "shares a key word with, and is strongly linked by readers to,")
                 tag(vid, k, f"{kind.capitalize()} {tgt.replace('.', ' ', 1).replace('.', ':')} ({votes} reader votes, OpenBible.info).")
                 break
     cnt = Counter(k for t in TAGS.values() for k in t); print("tags:", dict(cnt), file=sys.stderr)

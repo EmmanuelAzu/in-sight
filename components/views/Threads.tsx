@@ -53,7 +53,7 @@ export function Threads() {
       <p className="sub">{meta.d} Threads run in canonical order, which is not always the order of writing.</p>
       <div className="chips">
         {THREADS.map((t) => <button key={t.id} className="chip" aria-pressed={cur === t.id} onClick={() => router.push(`/threads?t=${t.id}`)}>{t.t}</button>)}
-        <button className="chip" aria-pressed={!!trace} onClick={() => router.push(`/threads?trace=${sel}`)}>Trace from {fmt(sel)}</button>
+        <button className="chip" aria-pressed={!!trace} onClick={() => router.push(`/threads?trace=${sel}`)}>Trace from {fmt(trace || sel)}</button>
         {study.paths.filter((p) => p.steps.length).map((p) => <button key={p.id} className="chip" aria-pressed={pid === p.id} onClick={() => router.push(`/threads?path=${p.id}`)}>My path: {p.title}</button>)}
       </div>
       {loading && <p className="empty">Loading…</p>}
