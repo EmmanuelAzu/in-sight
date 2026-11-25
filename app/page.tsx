@@ -1,9 +1,12 @@
 import Link from "next/link";
 import { Rainbow } from "@/components/Rainbow";
+import { PixelScene } from "@/components/PixelScene";
 
 export default function Home() {
   return (
     <div className="home-page">
+      <div className="scene">
+        <PixelScene />
       <section className="hero">
         <h1>Every verse, in sight of what came before</h1>
         <p className="sub">A King James Bible where each verse opens onto the scripture behind it: who is speaking and to whom, what was happening on the ground, the earlier words it draws on, and the Greek and Hebrew underneath.</p>
@@ -12,6 +15,7 @@ export default function Home() {
           <Link className="btn ghost" href="/threads">Follow a thread</Link>
         </div>
       </section>
+      </div>
       <Rainbow />
       <section className="tiles">
         {[

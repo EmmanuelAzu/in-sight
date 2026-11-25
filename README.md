@@ -16,6 +16,10 @@
 | **Ask the text** (`/ask`) | Answers built only from retrieved KJV verses; every sentence must cite a verse, and a second model pass checks each citation. |
 | **My study** (`/mine`) | Highlights, notes and study paths; share paths with others when signed in. |
 
+## Look
+
+A blocky, pixel-art theme (`app/theme-block.css`): grass-and-dirt header, parchment pages framed like blocks, a stone side panel, inventory-slot word studies and a pixel landscape on the home page. All textures and art are original (`scripts/gen_textures.py`, `components/PixelScene.tsx`); no game assets are used. Scripture stays in EB Garamond for reading.
+
 ## Two layers, kept apart
 
 1. **Scripture-only context** (`content/contexts.json`, `content/insights.json`): human-written lines, each citing KJV verses and marked *stated* or *interpretation*. Where the Bible doesn't say (e.g. Matthew's writer), the card says so.

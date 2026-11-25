@@ -28,8 +28,8 @@ export function Rainbow() {
 
   const N = data?.verses.length || 1189;
   const pad = 10;
-  const H = Math.round(Math.max(220, w * 0.5) + 64);
-  const base0 = H - 58; // baseline: arcs above, chapter bars below
+  const H = Math.round(Math.max(220, w * 0.5) + 44);
+  const base0 = H - 40; // baseline: arcs above, chapter bars below
   const X = (i: number) => pad + ((i + 0.5) / N) * (w - 2 * pad);
 
   const arcs = useMemo(() => {
@@ -64,10 +64,11 @@ export function Rainbow() {
   // Draw the full diagram progressively into an offscreen canvas.
   useEffect(() => {
     if (!data || !arcs || !w) return;
-    const dpr = Math.min(2, window.devicePixelRatio || 1);
+    // Drawn at low resolution and scaled up with pixelated rendering: a chunky, blocky rainbow.
+    const P = w < 600 ? 0.62 : 0.42;
     const off = document.createElement("canvas");
-    off.width = w * dpr; off.height = H * dpr;
-    const ctx = off.getContext("2d")!; ctx.scale(dpr, dpr);
+    off.width = Math.round(w * P); off.height = Math.round(H * P);
+    const ctx = off.getContext("2d")!; ctx.scale(P, P);
     ctx.fillStyle = "#07070d"; ctx.fillRect(0, 0, w, H);
     // chapter bars
     const maxV = Math.max(...data.verses);
@@ -78,11 +79,7 @@ export function Rainbow() {
         ctx.fillRect(X(k) - Math.max(0.35, (w - 2 * pad) / N / 2 - 0.15), base0 + 3, Math.max(0.7, (w - 2 * pad) / N - 0.3), h);
       }
     });
-    ctx.fillStyle = "rgba(255,255,255,.6)"; ctx.font = "600 11px system-ui,sans-serif"; ctx.textAlign = "left";
-    ctx.fillText("Genesis", pad, H - 8); ctx.textAlign = "center";
-    if (w > 520) { ctx.fillText("Psalms", X(data.books[18][2] + 75), H - 8); ctx.fillText("Matthew", X(data.books[39][2]), H - 8); }
-    ctx.textAlign = "right"; ctx.fillText("Revelation", w - pad, H - 8);
-    ctx.lineWidth = w < 600 ? 0.45 : 0.6;
+    ctx.lineWidth = 0.95 / P;
     const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
     let i = 0, raf = 0, cancelled = false;
     const step = () => {
@@ -111,7 +108,7 @@ export function Rainbow() {
     ctx.scale(dpr, dpr);
     const [, , s, n] = data.books[hover];
     ctx.fillStyle = "rgba(255,255,255,.12)"; ctx.fillRect(X(s) - 2, 0, X(s + n - 1) - X(s) + 4, H);
-    ctx.lineWidth = 0.9;
+    ctx.lineWidth = 1.2 / dpr;
     for (const { a, b, n: k } of arcs) {
       if (bookOf[a] !== hover && bookOf[b] !== hover) continue;
       ctx.strokeStyle = `hsla(${hue((b - a) / N)},100%,62%,${Math.min(0.9, 0.12 + k * 0.05)})`;
@@ -135,7 +132,7 @@ export function Rainbow() {
         <button className="chip" aria-pressed={mode === "strong"} onClick={() => setMode("strong")}>Quotations &amp; close echoes</button>
         <span className="rb-key" aria-hidden="true"><span>near</span><i /><span>far</span></span>
       </div>
-      <div className="rb-wrap" ref={wrap} style={{ height: H }}>
+      <div className="rb-wrap" ref={wrap} style={{ height: H + 26 }}>
         <canvas ref={cv} style={{ width: w, height: H }}
           role="img" aria-label={`${stats?.total.toLocaleString() ?? ""} cross-reference links drawn as arcs between the 1,189 chapters of the Bible, from Genesis on the left to Revelation on the right.`}
           onMouseMove={(e) => { const i = pick(e.clientX); setHover(bookOf[i]); const r = wrap.current!.getBoundingClientRect(); setTip({ x: e.clientX - r.left, y: e.clientY - r.top }); }}
@@ -148,6 +145,12 @@ export function Rainbow() {
             const [id, , s] = data.books[bi]; router.push(`/read/${id}/${i - s + 1}`);
           }} />
         {!data && <p className="rb-load">Drawing the Bible…</p>}
+        <div className="rb-axis" aria-hidden="true">
+          <span style={{ left: pad }}>Genesis</span>
+          {data && w > 520 && <span style={{ left: X(data.books[18][2] + 75), transform: "translateX(-50%)" }}>Psalms</span>}
+          {data && w > 520 && <span style={{ left: X(data.books[39][2]), transform: "translateX(-50%)" }}>Matthew</span>}
+          <span style={{ right: pad }}>Revelation</span>
+        </div>
         {hb && tip && stats && (
           <div className="rb-tip" style={{ left: Math.min(Math.max(tip.x, 110), w - 110), top: Math.max(8, tip.y - 110) }}>
             <b>{hb[1]}</b>
