@@ -28,7 +28,9 @@ export function Rainbow() {
 
   const N = data?.verses.length || 1189;
   const pad = 10;
-  const H = Math.round(Math.max(220, w * 0.5) + 44);
+  // Cap the height; arcs become flattened half-ellipses on wide screens.
+  const H = Math.round(Math.min(Math.max(200, w * 0.5), w < 600 ? 260 : 340) + 44);
+  const k = Math.min(1, (H - 44 - 12) / Math.max(1, (w - 2 * pad) / 2));
   const base0 = H - 40; // baseline: arcs above, chapter bars below
   const X = (i: number) => pad + ((i + 0.5) / N) * (w - 2 * pad);
 
@@ -58,7 +60,7 @@ export function Rainbow() {
 
   const arc = (ctx: CanvasRenderingContext2D, a: number, b: number) => {
     const x1 = X(a), x2 = X(b), r = (x2 - x1) / 2;
-    ctx.beginPath(); ctx.arc(x1 + r, base0, r, Math.PI, 2 * Math.PI); ctx.stroke();
+    ctx.beginPath(); ctx.ellipse(x1 + r, base0, r, r * k, 0, Math.PI, 2 * Math.PI); ctx.stroke();
   };
 
   // Draw the full diagram progressively into an offscreen canvas.
