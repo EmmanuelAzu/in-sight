@@ -6,6 +6,7 @@
 
 | View | What it does |
 |---|---|
+| **Home** (`/`) | A rainbow arc diagram of every cross-reference between the 1,189 chapters, coloured by distance. Hover a book to light up its links; click to read. |
 | **Read** (`/read/[book]/[chapter]`) | Full KJV with red letters and the translators' italics. Every verse is tagged by speaker or kind (God, Jesus, apostle, disciple, OT/NT reference, prophecy, prayer). Tap a verse to open the insight panel. |
 | **Insight panel** | Context card (scripture-only, every line cited), curated roots, cross-references split into earlier/later scripture with link strength, then-and-now comparisons, original-language words with lexicon entries, your highlights and notes. "How we know this" shows the evidence behind every line and tag. |
 | **Threads** (`/threads`) | Curated themes and automatic traces drawn across a Genesis→Revelation strip, in canonical order. |
@@ -45,6 +46,7 @@ git clone --depth 1 https://github.com/scrollmapper/bible_databases ../src/bible
 git clone --depth 1 https://github.com/STEPBible/STEPBible-Data ../src/STEPBible-Data
 python3 -I scripts/build_data.py --kjv ../src/open-bibles/eng-kjv.osis.xml \
   --xref ../src/bible_databases/formats/sql/extras --step ../src/STEPBible-Data --out .
+python3 -I scripts/build_arcs.py --root .   # home-page arc diagram
 ```
 
 ## Adding context cards

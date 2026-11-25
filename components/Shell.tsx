@@ -101,9 +101,9 @@ export function Shell({ children }: { children: ReactNode }) {
           <Search onPick={(id, chapterHref) => { if (chapterHref) router.push(chapterHref); if (id) select(id, true); }} />
         </div>
       </header>
-      <div className="wrap">
+      <div className={"wrap" + (path === "/" ? " home" : "")}>
         <main className="main">{children}</main>
-        <aside className={"panel" + (open ? " open" : "")} aria-label="Verse insight"><Panel /></aside>
+        {path !== "/" && <aside className={"panel" + (open ? " open" : "")} aria-label="Verse insight"><Panel /></aside>}
       </div>
       <div className={"scrim" + (open ? " on" : "")} onClick={() => setOpen(false)} />
     </AppCtx.Provider>

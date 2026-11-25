@@ -255,3 +255,28 @@ button.bar.on span:first-child{font-weight:700}
 .ask .qt{margin-left:12px}
 .main>div>.empty{margin-top:20px}
 .results p.empty{color:var(--mute)}
+/* ---- home ---- */
+.wrap.home{grid-template-columns:minmax(0,1fr)}
+.wrap.home .main{border-right:0;padding-top:clamp(28px,5vw,56px)}
+.hero{max-width:760px;margin:0 0 26px}
+.hero h1{font-size:clamp(34px,5.4vw,56px);margin-bottom:12px}
+.hero .sub{font-size:17px;margin-bottom:18px}
+.rainbow{margin:0 0 34px;padding:0}
+.rb-ctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px}
+.rb-key{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--mute);margin-left:auto}
+.rb-key i{display:inline-block;width:140px;height:10px;border-radius:5px;background:linear-gradient(90deg,hsl(0 100% 58%),hsl(40 100% 55%),hsl(80 100% 50%),hsl(140 100% 45%),hsl(190 100% 50%),hsl(235 100% 65%),hsl(285 100% 65%))}
+.rb-wrap{position:relative;width:100%;border-radius:16px;overflow:hidden;background:#07070d;box-shadow:0 18px 50px rgb(0 0 0/.18)}
+.rb-wrap canvas{display:block;cursor:pointer;touch-action:manipulation}
+.rb-load{position:absolute;inset:0;display:grid;place-items:center;margin:0;color:rgba(255,255,255,.7);font:italic 18px var(--f-serif),serif}
+.rb-tip{position:absolute;transform:translateX(-50%);background:rgba(10,10,20,.92);color:#fff;border:1px solid rgba(255,255,255,.18);border-radius:10px;padding:8px 12px;font-size:13px;pointer-events:none;display:flex;flex-direction:column;gap:2px;min-width:180px;max-width:240px;backdrop-filter:blur(4px)}
+.rb-tip b{font:500 18px var(--f-serif),serif}
+.rb-tip span{color:rgba(255,255,255,.8)}
+.rb-tip em{font-style:normal;color:hsl(190 100% 70%);font-weight:600;margin-top:2px}
+.rainbow figcaption{font-size:13.5px;color:var(--mute);margin-top:10px;max-width:80ch}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
+.tile{display:flex;flex-direction:column;gap:4px;text-decoration:none;border:1px solid var(--rule);border-radius:14px;padding:16px;background:var(--card);transition:border-color .15s,transform .15s}
+.tile:hover{border-color:var(--ink);transform:translateY(-2px)}
+.tile b{font:500 22px var(--f-serif),serif}
+.tile span{color:var(--mute);font-size:14.5px}
+@media(max-width:600px){.rb-key{margin-left:0}.rb-key i{width:100px}}
+.btn{text-decoration:none;display:inline-flex;align-items:center}
